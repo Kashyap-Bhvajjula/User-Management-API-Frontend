@@ -42,7 +42,7 @@ export const createUser = async (userData) => {
 // Get user by ID
 export const getUserById = async (id) => {
   try {
-    const response = await axios.get(`http://localhost:3000/users/${id}`);
+    const response = await axios.get(`https://user-management-api-backend.onrender.com/users/${id}`);
     return response.data;
   } catch (error) {
     throw error;
@@ -52,7 +52,7 @@ export const getUserById = async (id) => {
 // Update user by ID
 export const updateUser = async (id, updatedUser) => {
   try {
-    const response = await axios.put(`http://localhost:3000/users/${id}`, updatedUser);
+    const response = await axios.put(`https://user-management-api-backend.onrender.com/users/${id}`, updatedUser);
     return response.data;
   } catch (error) {
     throw error;
@@ -63,7 +63,7 @@ export const updateUser = async (id, updatedUser) => {
 // Delete user by ID
 export const deleteUser = async (id) => {
     try {
-      const response = await axios.delete(`http://localhost:3000/users/${id}`);
+      const response = await axios.delete(`https://user-management-api-backend.onrender.com/users/${id}`);
       return response.data;
     } catch (error) {
       throw error;
