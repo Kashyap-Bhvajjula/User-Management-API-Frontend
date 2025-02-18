@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:3000/users';  // Ensure this matches your backend API endpoint
+const API_URL = 'https://user-management-api-backend.onrender.com/users';  // Ensure this matches your backend API endpoint
 
 
 // Fetch all users
