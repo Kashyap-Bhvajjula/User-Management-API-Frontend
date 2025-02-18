@@ -1,0 +1,9 @@
+1. Create Vite -> npm create vite@latest frontend
+
+2. Choose React and then Javascript
+
+3. Installing Axios for making HTTP requests -> npm i axios
+
+4. Installing React Router for Route handling -> npm i react-router-dom
+
+5. Create components and services folder in src.

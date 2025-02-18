@@ -1,0 +1,54 @@
+.user-list {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .user-item {
+    list-style-type: none;
+    margin: 10px 0;
+    /* width: fit-content; */
+  }
+
+  .users{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .user-name {
+    display: inline-block; /* Allow the background to only extend to the name */
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5c6bc0;
+    background-color: #ffffff; /* White background only around the name */
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .user-name:hover {
+    text-decoration: underline;
+    background-color: #e1f5fe; /* Add a slight hover effect */
+  }
+  
+  .user-details-dropdown {
+    margin-top: 10px;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: left;
+    margin: 0 auto; /* Center the dropdown */
+  }
+  
+  .user-details-dropdown p {
+    margin: 5px 0;
+  }
+  
+  .user-details-dropdown p strong {
+    color: #333;
+  }
+  

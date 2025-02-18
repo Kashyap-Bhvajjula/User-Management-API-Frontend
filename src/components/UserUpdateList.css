@@ -1,0 +1,38 @@
+.UserUpdateContainer {
+    max-width: 50%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.search-bar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.search-bar button {
+    height: 40px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.UserUpdateList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.UserUpdateList button {
+    padding: 10px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
